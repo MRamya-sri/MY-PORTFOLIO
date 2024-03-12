@@ -32,7 +32,7 @@ const HeroContent = () => {
           className="flex flex-col gap-6 mt-6 text-3xl md:text-5xl font-bold text-white max-w-[600px] w-auto h-auto"
         >
           <span className="text-2xl md:text-4xl lg:text-5xl xl:text-6xl text-white">
-            Hey! 👋 I'm Ramya sri
+             Hey! &apos;👋 I&apos;m Ramya sri
           </span>
           <motion.div
             variants={slideInFromLeft(0.7)}

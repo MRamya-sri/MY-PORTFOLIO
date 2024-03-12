@@ -1,5 +1,3 @@
-// Footer.jsx
-
 import React from "react";
 import { FaEnvelope } from "react-icons/fa";
 import {
@@ -18,7 +16,7 @@ const Footer = () => {
         <div className="w-full h-full flex flex-col items-center justify-around flex-wrap">
           <div className="min-w-[200px] h-auto flex flex-col items-center justify-start">
             <h1 className="text-4xl font-semibold text-center text-black bg-gradient-to-r from-purple-500 to-cyan-500 py-6 px-4 mb-10">
-              Let's Connect 🤝🏼
+              Let&apos;s Connect 🤝🏼
             </h1>
             <p className="flex flex-row items-center my-[15px] cursor-pointer contact-item">
               <FaEnvelope />
@@ -26,7 +24,7 @@ const Footer = () => {
                 href="mailto:ramyasrimuthuluri@gmail.com"
                 className="text-[15px] ml-[6px]"
               >
-                "Ready to dive into new challenges and deliver outstanding results. Let's chat! Email me to get started."
+                {"Ready to dive into new challenges and deliver outstanding results. Let's chat! Email me to get started."}
               </a>
             </p>
             <p className="flex flex-row items-center my-[15px] cursor-pointer contact-item">
@@ -37,7 +35,7 @@ const Footer = () => {
                 rel="noopener noreferrer"
                 className="text-[15px] ml-[6px]"
               >
-                "Let's connect professionally on LinkedIn. Explore my career journey and insights."
+                {"Let's connect professionally on LinkedIn. Explore my career journey and insights."}
               </a>
             </p>
             <p className="flex flex-row items-center my-[15px] cursor-pointer contact-item">
@@ -59,7 +57,7 @@ const Footer = () => {
                 rel="noopener noreferrer"
                 className="text-[15px] ml-[6px]"
               >
-                "Engage with me on Twitter for my Technical insights"
+                {"Engage with me on Twitter for my Technical insights"}
               </a>
             </p>
             <p className="flex flex-row items-center my-[15px] cursor-pointer contact-item">
@@ -70,7 +68,7 @@ const Footer = () => {
                 rel="noopener noreferrer"
                 className="text-[15px] ml-[6px]"
               >
-                "Explore my code repositories and contributions on GitHub. Let's collaborate on open-source projects!"
+                {"Explore my code repositories and contributions on GitHub. Let's collaborate on open-source projects!"}
               </a>
             </p>
           </div>
@@ -85,3 +83,4 @@ const Footer = () => {
 };
 
 export default Footer;
+
